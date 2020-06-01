@@ -1,0 +1,46 @@
+h1{
+font-style: gras;
+font-size:50px;
+color: white;
+}
+
+h3{
+  font-size:30px;
+  color: white;
+}
+
+h3.recherche
+{
+  font-size:30px;
+  color: black;
+}
+
+body {
+color:black;
+background-image:url(../images/sky.jpg);
+background-attachment: fixed;
+}
+
+table.tableau{
+  border: thin solid #1c75c8;
+  background-color: #c5ddf6;
+}
+
+.login{
+  font-size:20px;
+}
+
+.marge{
+  padding-bottom : 5px;
+}
+
+input[type=submit] {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 10px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: thin solid #1c75c8;
+}

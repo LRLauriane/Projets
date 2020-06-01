@@ -1,0 +1,17 @@
+body {background-image : url(../images/horaires.jpg);}
+
+.accueil{
+	color : black;
+	font-size : 25px;
+	background-color : #87CEEB;
+}
+
+h1{
+	color : black;
+	font-size : 50px;
+	text-align:center;
+	margin:20px;
+	background : #87CEEB;
+
+
+}

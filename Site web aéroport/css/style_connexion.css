@@ -1,0 +1,33 @@
+h1{
+font-style: gras;
+font-size:50px;
+color: white;
+}
+
+h3{
+  font-size:30px;
+  color: black;
+}
+
+body {
+color:black;
+background-color:white;
+background-image:url(../images/nuages.jpg);
+background-position:left high;
+background-attachment: fixed;
+}
+
+table.tableau{
+  border: thin solid #1c75c8;
+  background-color: #CEE3F6
+}
+
+input[type=submit] {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border: thin solid #1c75c8;
+}

@@ -1,0 +1,29 @@
+body {
+	background-image : url(../images/paris_aeroport.jpg);
+	background-size: cover;
+}
+
+
+h1{
+	color : steelblue;
+	font-size : 50px;
+	text-align:center;
+	margin:0;
+
+}
+
+input{
+	color : black;
+	font-size : 25px;
+	background-color : #87CEEB;
+}
+
+
+h2{
+	color : navy;
+}
+
+p{
+	font-size : 20px;
+	color : midnightblue;
+}
