@@ -1,0 +1,47 @@
+#include "fonctions.h"
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include "navalmap.h"
+#include "nm_rect.h"
+
+void serveur(const char* chemin)
+{
+	int fd = open(chemin,O_RDONLY),i=0;										//Ouverture du fichier en lecture
+		if(fd==-1) printf("Erreur d'ouverture\n");
+	struct stat taille;
+	stat(chemin,&taille);
+	char c;
+	char *sauv = malloc(taille.st_size*sizeof(char));
+	navalmap_t * m;
+	
+		
+	while(read(fd,&c,1) > 0)
+	{
+		sauv[i] = c;
+		printf("%c\n",sauv[i]);
+		i++;	
+	}
+	
+	printf("%s\n",sauv);
+	
+	if(sauv[0]=='r') m->type = MAP_RECT;
+	else m->type = MAP_TOTAL;
+	
+	while(sauv[i] == ';') i++;
+	
+	int j = i;
+	
+	while(j<taille.st_size)
+	{
+		if(sauv[j] == ';') j++;
+		else 
+		{
+			while
+		}
+	}
+
+	
+	free(sauv);
+	close(fd);
+}
